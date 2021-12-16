@@ -3,6 +3,7 @@
 }
 .logo {
   width: 50px;
+  height: 50px;
   border-radius: 25%;
 }
 .navbar {
@@ -10,4 +11,9 @@
   display: grid;
   grid-template-columns: repeat(4,1fr);
   font-size: larger;
+}
+.movies {
+  width: 75%;
+  margin: 20px auto;
+  border: 5px dashed green;
 }

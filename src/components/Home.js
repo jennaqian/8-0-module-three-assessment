@@ -2,14 +2,9 @@ import "../App.css"
 import React from "react"
 
 class Home extends React.Component {
-    constructor(){
-        super()
-
-    }
-
     render() {
         return (
-            <div>
+            <div className="home">
                 <h1>Welcome to GhibliApp</h1>
             </div>
         )

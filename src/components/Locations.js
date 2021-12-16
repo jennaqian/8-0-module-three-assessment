@@ -1,7 +1,7 @@
-import "./App.css"
-import {React} from "react"
+import "../App.css"
+import React from "react"
 
-class Location extends React.Component {
+class Locations extends React.Component {
     constructor(){
         super()
 
@@ -16,4 +16,4 @@ class Location extends React.Component {
     }
 }
 
-export default Location;
+export default Locations;

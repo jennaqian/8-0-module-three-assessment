@@ -17,3 +17,15 @@
   margin: 20px auto;
   border: 5px dashed green;
 }
+.locations > ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  list-style-type: none;
+  width: 90%;
+  margin: 10px auto;
+  padding: 0px;
+}
+.locations >ul >li {
+  border: 2px dashed green;
+  margin: 5px;
+}

@@ -2,5 +2,12 @@
   text-align: center;
 }
 .logo {
-  width: 100px;
+  width: 50px;
+  border-radius: 25%;
+}
+.navbar {
+  background-color: green;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  font-size: larger;
 }

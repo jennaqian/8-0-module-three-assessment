@@ -4,6 +4,7 @@ import Home from "./components/Home.js"
 import Navbar from "./components/Navbar.js"
 import People from "./components/People.js"
 import Locations from "./components/Locations.js"
+import Movies from "./components/Movies.js"
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <Navbar />
       </nav>
       <main>
-        <h1>Hello, world!</h1>
+        <Route exact path="/" component={Home} />
+        <Route path="/movies" component={Movies} />
+        <Route path="people" component={People} />
+        <Route path="locations" component={Locations} />
       </main>
     </div>
   );

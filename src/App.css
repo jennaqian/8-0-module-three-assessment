@@ -29,3 +29,22 @@
   border: 2px dashed green;
   margin: 5px;
 }
+.people {
+  border: 3px dashed green;
+  width: 80%;
+  margin: 20px auto;
+}
+.home > h1{
+  color: green;
+}
+
+.link {
+  margin: 15px auto;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+.link:hover{
+  background-color: white;
+  transform: scale(1.5);
+}

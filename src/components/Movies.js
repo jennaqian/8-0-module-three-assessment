@@ -37,7 +37,7 @@ class Movies extends React.Component {
         const {movies, selectedMovie} = this.state
 
         let movie = movies.map((movie) => {
-            return <option>{movie.title}</option>
+            return <option key={movie.id}>{movie.title}</option>
         })
 
         
